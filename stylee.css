@@ -1,0 +1,82 @@
+body{
+  text-align:center;
+  background-color: #826BAB;
+  text-transform:uppercase;
+  font-family:"Pangolin", sans-serif;
+  color:white;
+  font-weight: bolder;
+}
+
+.showMain{
+  display:block;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+#fChange, #cChange{
+  background:none;
+  margin:0;
+  border:none;
+  padding:0;
+  cursor:pointer;
+  text-align:center;
+  display:inline-block;
+  color:white;
+  font-family: "Pangolin", sans-serif;
+  font-weight: bold;
+  outline:none;
+}
+
+#showTemp{
+  margin:0;
+  display:inline-block;
+  font-size:2.5em;
+}
+
+#displayImg{
+  max-width: 250px;
+  max-height: 250px;
+  margin: auto;
+}
+
+#showIcon{
+  width:100%;
+  border-radius: 25%;
+  margin-top:1em;
+  transition: background 0.3s linear; 
+}
+
+#showDescription{
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+#showLoc{
+  margin-top: 0.5em;
+  margin-bottom:3.5em;
+}
+
+footer{
+  width: 100%;
+  display: block;
+  font-size: 0.6em;
+  font-weight: lighter;
+  margin-top: 28px;
+}
+
+.badTip{
+  text-align: center;
+  text-transform: none;
+  font-size: 1em;
+  font-weight:lighter;
+  margin-left: 3.5em;
+  margin-right: 3.5em;
+  margin-bottom: 2em;
+}
+
+.dancing{
+  width: 4em;
+  height:4em;
+  margin-bottom: 2em;
+}
