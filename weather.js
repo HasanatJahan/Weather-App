@@ -14,7 +14,7 @@ $(document).ready(function(){
      var key="cab170e9528b46ca580736c8a96a7255";
 
  //AJAX call
-    $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat="+userLat+"&lon="+userLon+"&APPID="+key, function(dataObj){
+    $.getJSON("https://api.openweathermap.org/data/2.5/weather?lat="+userLat+"&lon="+userLon+"&APPID="+key, function(dataObj){
       console.log(dataObj);//IT'S ALIVE
   //if ajax request fails
   $(document).ajaxError(function(){
