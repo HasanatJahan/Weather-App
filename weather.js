@@ -90,6 +90,10 @@ $(document).ready(function(){
       if(describe=="CLOUDY"){
         $("#showIcon").attr("src",cloudy);
       }
+      if(describe=="CLOUDS"){
+      	$("#showIcon").attr("src",cloudy);
+      }
+      
 
       });//JSON  bracket
       });//navigator position function
