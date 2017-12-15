@@ -24,7 +24,7 @@ $(document).ready(function(){
 
  //temperature display
       var getTemp=dataObj.main.temp;
-      var celsius=getTemp-273.15;
+      var celsius=Math.round(getTemp-273.15);
       var fahrenheit=Math.round((celsius*1.8)+32);
       $("#showTemp").html(celsius);
       $("#cChange").css("color","#1B9CB1");
