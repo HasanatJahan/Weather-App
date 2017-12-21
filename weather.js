@@ -92,6 +92,8 @@ $(document).ready(function(){
       }
       if(describe=="CLOUDS"){
       	$("#showIcon").attr("src",cloudy);
+      }if(describe=="MIST"){
+      	$("#showIcon").attr("src",cloudy);	
       }
       
 
